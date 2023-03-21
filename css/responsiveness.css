@@ -1,0 +1,41 @@
+/* Set style for the responsive navigation bar */
+@media (max-width: 767px) {
+    .navbar-nav {
+      margin-top: 1rem;
+    }
+  
+    .navbar-nav .nav-item {
+      margin: 0 0 0.5rem 0;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 0.5rem 0;
+      font-size: 1.1rem;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .navbar-toggler {
+      margin-right: 0.5rem;
+    }
+  
+    .navbar-brand {
+      margin-right: 0;
+    }
+  }
+  
+  /* Set style for the responsive product cards */
+  @media (max-width: 767px) {
+    .card-img-top {
+      height: 150px;
+    }
+  
+    .card-title {
+      font-size: 1rem;
+    }
+  
+    .card-text {
+      font-size: 0.9rem;
+    }
+  }
+  

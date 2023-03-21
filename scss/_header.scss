@@ -1,0 +1,28 @@
+/* Set background color and text color for the header section */
+nav {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  /* Set style for the brand name */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  /* Set style for navigation links */
+  .nav-link {
+    font-size: 1.1rem;
+    margin-left: 1rem;
+  }
+  
+  /* Set active link color */
+  .nav-item.active .nav-link {
+    color: #007bff;
+  }
+  
+  /* Set style for navbar toggler button */
+  .navbar-toggler {
+    border: none;
+  }
+  
