@@ -1,12 +1,10 @@
-/* Set background color and text color for the products section */
 #products {
     background-color: #f8f9fa;
     color: #343a40;
     padding-top: 100px;
     padding-bottom: 60px;
   }
-  
-  /* Set style for product cards */
+
   .card {
     border: none;
     border-radius: 0;
