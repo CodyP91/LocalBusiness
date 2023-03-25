@@ -1,3 +1,23 @@
+header {
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+}
 #about {
     max-width: 800px;
     margin: 0 auto;

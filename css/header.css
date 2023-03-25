@@ -1,28 +1,27 @@
+header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+}
 
-nav {
-    background-color: #343a40;
-    color: #fff;
-  }
-  
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
 
-  .navbar-brand {
-    font-weight: bold;
-    font-size: 1.5rem;
-  }
-  
-  
-  .nav-link {
-    font-size: 1.1rem;
-    margin-left: 1rem;
-  }
-  
-  
-  .nav-item.active .nav-link {
-    color: #007bff;
-  }
-  
-  
-  .navbar-toggler {
-    border: none;
-  }
-  
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}

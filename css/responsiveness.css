@@ -1,4 +1,3 @@
-/* Set style for the responsive navigation bar */
 @media (max-width: 767px) {
     .navbar-nav {
       margin-top: 1rem;
@@ -24,7 +23,6 @@
     }
   }
   
-  /* Set style for the responsive product cards */
   @media (max-width: 767px) {
     .card-img-top {
       height: 150px;

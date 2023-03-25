@@ -34,14 +34,14 @@
     font-size: 16px;
     border-radius: 0;
     border: none;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #0f0101;
     margin-bottom: 20px;
   }
   
   #contact button.btn {
     margin-top: 20px;
-    background-color: #d50000;
-    color: #fff;
+    background-color: #186fe2;
+    color: #0f0101;
     border-radius: 0;
     border: none;
     padding: 10px 30px;
@@ -51,6 +51,6 @@
   }
   
   #contact button.btn:hover {
-    background-color: #a30000;
+    background-color: #1893e6;
   }
   

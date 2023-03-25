@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TECHQUAL - Products</title>
+    <title>Products</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/responsiveness.css">
     <link rel="stylesheet" href="index.html">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Ok Pizza</a>
+            <a class="navbar-brand" href="index.html">T-TECH</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,16 +23,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="products.html">Products</a>
+                        <a class="nav-link" href="../pages/products.html">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="../pages/about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="../pages/contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -40,30 +41,97 @@
 
     <main>
         <section id="products">
-            <div class="container">
-                <h2>Our Products</h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="img/product-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Product 1</h5>
-                                <p class="card-text"></p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="img/product-2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Product 2</h5>
-                                <p class="card-text"></p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <img src="img/product-3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
+            <div class="products-grid">
+              <div class="product-card">
+                <img src="../images/product1.jpg" alt="Product 1" />
+                <h2>Wireless Headphones</h2>
+                <p>Bluetooth Wireless headphones</p>
+                <button>Learn More</button>
+              </div>
+              <div class="product-card">
+                <img src="../images/laptop2.jpg" alt="Product 2" />
+                <h2>Laptop</h2>
+                <p>Generic Laptop</p>
+                <button>Learn More</button>
+              </div>
+              <div class="product-card">
+                <img src="../images/product3.jpg" alt="Product 3" />
+                <h2>SSD</h2>
+                <p>Solid-State HDD</p>
+                <button>Learn More</button>
+              </div>
+              <div class="product-card">
+                <img src="../images/router.jpg" alt="Product 4" />
+                <h2>Router</h2>
+                <p>Router</p>
+                <button>Learn More</button>
+              </div>
+              <div class="product-card">
+                <img src="../images/product5.jpg" alt="Product 5" />
+                <h2>Wireless Mouse</h2>
+                <p>Wireless mouse with USB connector</p>
+                <button>Learn More</button>
+              </div>
+              <div class="product-card">
+                <img src="../images/product6.jpg" alt="Product 6" />
+                <h2>Keyboard</h2>
+                <p>Basic white keyboard</p>
+                <button>Learn More</button>
+              </div>
+              <div class="product-card">
+                <img src="../images/product7.jpg" alt="Product 7" />
+                <h2>Wireless Charger</h2>
+                <p>Charge your phone wirelessly</p>
+                <button>Learn More</button>
+              </div>
+              <div class="product-card">
+                <img src="../images/products2jpg.jpg" alt="Product 8" />
+                <h2>USB Stick</h2>
+                <p>USB Drive 120GB</p>
+                <button>Learn More</button>
+              </div>
+              <div class="product-card">
+                <img src="../images/speaker9.jpg" alt="Product 9" />
+                <h2>Speaker</h2>
+                <p>Vintage speaker</p>
+                <button>Learn More</button>
+              </div>
+              <div class="product-card">
+                <img src="../images/tabletdraw.jpg" alt="Product 10" />
+                <h2>Drawing Tablet</h2>
+                <p>Tablet for Artist's</p>
+                <button>Learn More</button>
+              </div>
+              <div class="product-card">
+                <img src="../images/mouse211.jpg" alt="Product 11" />
+                <h2>Gaming Mouse</h2>
+                <p>Mouse for gaming</p>
+                <button>Learn More</button>
+              </div>
+              <div class="product-card">
+                <img src="../images/headphones11.jpg" alt="Product 12" />
+                <h2>Wired Headphones</h2>
+                <p>Studio headphones</p>
+                <button>Learn More</button>
+              </div>
+              <div class="product-card">
+                <img src="../images/headphones15.jpg" alt="Product 13" />
+                <h2>AirPods</h2>
+                <p>Airpods</p>
+                <button>Learn More</button>
+              </div>
+              <div class="product-card">
+                <img src="../images/graphicscard13.jpg" alt="Product 14" />
+                <h2>Graphic's card</h2>
+                <p>Graphic's card</p>
+                <button>Learn More</button>
+              </div>
+              <div class="product-card">
+                <img src="../images/desktops12.jpg" alt="Product 15" />
+                <h2>Desktop</h2>
+                <p>Desktop PCs.</p>
+                <button>Learn More</button>
+              </div>
+            </div>
+          </section></main></body></html>
+          
